@@ -1,0 +1,22 @@
+
+# Configurações do ShadowPlugin
+
+# Máximo de sombras permitidas no servidor
+maxShadowsPerServer: 50
+
+# Cooldown em segundos para spawnar uma nova sombra
+spawnCooldown: 60
+
+# Comportamento padrão de ataque a mobs
+defaultAttackMobs: true
+
+# Configurações da sombra
+shadow:
+  # Distância de seguimento
+  followDistance: 4
+  # Tempo de respawn em segundos
+  respawnTime: 10
+  # Efeitos visuais habilitados
+  effects: true
+  # Distância de detecção de alvos
+  targetRange: 5

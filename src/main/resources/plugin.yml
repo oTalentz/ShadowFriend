@@ -1,0 +1,25 @@
+
+name: ShadowPlugin
+version: 1.0
+main: leocafe.main.Main
+api-version: 1.8
+description: Um plugin que cria uma sombra que segue e protege o jogador
+
+commands:
+  shadow:
+    description: Controla sua sombra viva
+    usage: |-
+      §e/shadow §7- Abre o menu de controle
+      §e/shadow on §7- Ativa sua sombra
+      §e/shadow off §7- Desativa sua sombra
+      §e/shadow attack §7- Alterna ataque a mobs
+      §e/shadow pvp §7- Alterna ataque a jogadores
+    permission: shadow.use
+
+permissions:
+  shadow.use:
+    description: Permite usar o comando shadow
+    default: true
+  shadow.admin:
+    description: Permite usar comandos administrativos do shadow
+    default: op

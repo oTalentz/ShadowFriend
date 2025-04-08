@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShadowFriend">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShadowFriend</output-path>
+    <root id="archive" name="ShadowFriend.jar">
+      <element id="module-output" name="ShadowFriend" />
+    </root>
+  </artifact>
+</component>
